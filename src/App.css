@@ -1,0 +1,99 @@
+body{
+  margin-left:5vw;
+  margin-right:5vw;
+  background-color: rgb(182, 182, 182);
+}
+
+.title{
+  text-align: center;
+}
+
+.all-todos{
+  display:flex;
+  width:80vw;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  height:auto;
+  
+}
+
+.todos{
+  display:flex;
+  padding-left:2vw;
+  padding-right:2vw;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width:20vw;
+  height:15vw;
+  background-color: white;
+}
+
+.todos p{
+  font-size:2vw;
+  font-weight: bold;
+  
+}
+
+.todos button{
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #800040;
+  color: white;
+  border: 1px solid #800040;
+  margin: 0 1rem;
+}
+
+.todos button:hover{
+  background-color: #9c1458;
+  border-color: #9c1458;
+  
+}
+
+.background{
+  background-color: rgb(70, 70, 70);
+  width:100vw;
+  height:100vh;
+  z-index: 2;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.confirm-bar{
+  width:30vw;
+  height:20vw;
+  background-color:white;
+  z-index:3;
+  position:absolute;
+  left:33vw;
+  top:15vw;
+}
+
+.confirm-bar p{
+  font-size:2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.confirm-buttons{
+  display:flex;
+  margin-top:10vw;
+  justify-content: space-around;
+}
+
+
+.confirm-buttons button{
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #800040;
+  color: white;
+  border: 1px solid #800040;
+  margin: 0 1rem;
+}
+
+
